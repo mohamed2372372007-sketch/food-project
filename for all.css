@@ -1,0 +1,128 @@
+:root {
+  --black-color: rgb(0, 0, 0);
+  --rmadi-color: rgb(0, 0, 0);
+  --backgroundrmadi-color: #242329;
+  --all-color: rgb(255, 255, 255);
+  --bottom-color: rgb(0, 0, 0);
+  --boxshadow: white;
+  --nav-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  --card-bg: #0f161d;
+  --contact-bg: #000000;
+  --text-color: #ffffff;
+  --input-bg: #333;
+  
+}
+
+
+.change {
+  --black-color: rgb(255, 255, 255);
+  --rmadi-color: rgb(255, 255, 255);
+  --backgroundrmadi-color: rgb(133, 125, 125);
+  --all-color: rgb(0, 0, 0);
+  --bottom-color: rgb(48, 37, 37);
+  --boxshadow: rgb(43, 21, 21);
+  background-image: url(images/white\ back\ ground.jpg);
+  background-attachment: fixed;
+  --nav-shadow: 0 4px 15px rgba(0, 0, 0, 0.8);
+  --card-bg: #ffffff;
+  --contact-bg: #ffffff;
+  --text-color: #000000;
+  --input-bg: #f5f5f5;
+  --bottom-color: white;   
+  --all-color: black;
+}
+.change .section-heading {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-family: "DM Sans", sans-serif;
+  font-weight: 600;
+}
+
+h3 {
+  color: black;
+}
+
+li a:hover {
+  background: var(--backgroundrmadi-color);
+  height: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 5px 5px var(--boxshadow);
+}
+button:hover {
+  background: var(--bottom-color);
+  height: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 5px 5px var(--boxshadow);
+}
+
+body {
+  min-height: 100vh;
+  color: var(--all-color);
+  background-image: url(images/black\ background.jpg);
+}
+.change body{
+  background-image: url(images/white\ back\ ground.jpg);
+}
+.link a {
+  text-decoration: none;
+  color: var(--all-color);
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.link a:hover {
+  color: rgb(255, 255, 255);
+}
+#buttom {
+  padding: 6px 12px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+
+ul {
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  list-style: none;
+  line-height: 40px;
+}
+
+.head {
+  background-color: var(--black-color);
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: var(--black-color);
+  box-shadow: var(--nav-shadow);
+}
+
+.link {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 10px;
+  list-style: none;
+}
+
+button {
+  background-color: transparent;
+  color: var(--all-color);
+  border: 1px solid var(--all-color);
+}
+.section-heading {
+  background-color: black;
+  color: white;
+  display: inline-block;
+  padding: 10px 25px;
+  border-radius: 10px;
+  text-align: center;
+  margin: 30px auto;
+}

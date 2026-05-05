@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Menu</title>
+    <link rel="stylesheet" href="for all.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  </head>
+
+  <body>
+    <header class="head" id="head">
+      <h1 class="name">world food</h1>
+      <ul class="link" id="link">
+        <li><a href="index.html">HOME </a></li>
+        <li><a href="login.html"> login</a></li>
+        <li><a href="register.html">register</a></li>
+        <li><a href="menu.html">menu</a></li>
+        <li><a href="compare.html">compare </a></li>
+        <li><a href="profile.html"> profile</a></li>
+        <li><a href="contact-us.html">contact us</a></li>
+        <li><a href="about-us.html">about Us</a></li>
+        <li><button id="buttom">change theme</button></li>
+      </ul>
+    </header>
+
+    <main>
+      <h1 class="sectionhead">Our Menu</h1>
+
+      <div class="menu">
+        <div class="item" data-category="breakfast">
+          <div class="img">
+            <img src="images/fried eggs.jpg" alt="Fried Eggs" />
+          </div>
+          <h3>Fried Eggs</h3>
+          <p>Eggs with toast</p>
+          <span class="price">$5</span>
+          <button class="fav" data-id="friedEgg">
+            <i class="fa-regular fa-heart"></i>
+          </button>
+          <button class="addbutton">Add to Cart</button>
+        </div>
+
+        <div class="item" data-category="breakfast">
+          <div class="img">
+            <img src="images/pankakes.jpg" alt="Pancakes" />
+          </div>
+          <h3>Pancakes</h3>
+          <p>With honey</p>
+          <span class="price">$7</span>
+          <button class="fav" data-id="pancakes">
+            <i class="fa-regular fa-heart"></i>
+          </button>
+          <button class="addbutton">Add to Cart</button>
+        </div>
+
+        <div class="item" data-category="lunch">
+          <div class="img">
+            <img
+              src="images/burger with dark background.jpg"
+              alt="Beef Burger"
+            />
+          </div>
+          <h3>Beef Burger</h3>
+          <p>With cheese</p>
+          <span class="price">$10</span>
+          <button class="fav" data-id="burger">
+            <i class="fa-regular fa-heart"></i>
+          </button>
+          <button class="addbutton">Add to Cart</button>
+        </div>
+
+        <div class="item" data-category="lunch">
+          <div class="img">
+            <img src="images/slize pizza.jpg" alt="Pizza" />
+          </div>
+          <h3>Pizza</h3>
+          <p>Italian pizza</p>
+          <span class="price">$12</span>
+          <button class="fav" data-id="pizza">
+            <i class="fa-regular fa-heart"></i>
+          </button>
+          <button class="addbutton">Add to Cart</button>
+        </div>
+
+        <div class="item" data-category="dessert">
+          <div class="img">
+            <img src="images/chokolate cake.jpg" alt="Chocolate Cake" />
+          </div>
+          <h3>Chocolate Cake</h3>
+          <p>Rich chocolate</p>
+          <span class="price">$6</span>
+          <button class="fav" data-id="cake">
+            <i class="fa-regular fa-heart"></i>
+          </button>
+          <button class="addbutton">Add to Cart</button>
+        </div>
+      </div>
+
+      <section class="offer">
+        <h2 class="sectionhead">Special Offers</h2>
+
+        <div class="offers">
+          <div class="offercard">
+            <span class="offerbutton">Save $2</span>
+            <div class="img">
+              <img src="images/pizza with fries.jpg" alt="Pizza Special" />
+            </div>
+            <h3>Pizza Special</h3>
+            <p>Pizza Napoletana + Potato Wedges</p>
+            <span class="price">$13</span>
+            <button class="fav" data-id="offeredpizza">
+              <i class="fa-regular fa-heart"></i>
+            </button>
+            <button class="addbutton">Add to Cart</button>
+          </div>
+
+          <div class="offercard">
+            <span class="offer-badge">Combo</span>
+            <div class="img">
+              <img src="images/combo.jpg" alt="Burger Combo" />
+            </div>
+            <h3>Burger Combo</h3>
+            <p>Burger + Drink</p>
+            <span class="price">$11</span>
+            <button class="fav" data-id="offeredburger">
+              <i class="fa-regular fa-heart"></i>
+            </button>
+            <button class="addbutton">Add to Cart</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="menu.js"></script>
+    <script src="for all.js"></script>
+  </body>
+</html>

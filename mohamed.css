@@ -1,0 +1,52 @@
+.advanced-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    border-color: #2b6d47;
+}
+
+.advanced-table th {
+    background-color: #c01818;
+    padding: 15px;
+    border-bottom: 2px solid #ddd;
+
+}
+
+.advanced-table td {
+    padding: 15px;
+    border-bottom: 1px solid #141212;
+color: #141212;
+}
+
+ 
+.advanced-table tr:hover{
+    background-color: #d64c16;
+}
+
+.price {
+    font-weight: bold;
+    color: #e67e22;
+}
+
+.order-btn {
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.audio{ text-align: center;}
+
+.compare-container {
+    background-color: #ffffff; 
+    max-width: 900px;         
+    margin: 50px auto;        
+    padding: 20px;
+    border-radius: 15px;     
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); 
+    border: 1px solid #eee;
+}

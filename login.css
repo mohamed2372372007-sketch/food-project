@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+}
+
+.login-container {
+    width: 420px;
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(254,255,253,0.1);
+    margin: 80px auto;
+    background-color: #242329;
+}
+
+.login-container h1,.login-container p, .login-container label,.login-container .if,.login-container .if small {
+  color: white !important;
+}
+
+.login-container input {
+  background-color: #333; 
+  color: white;
+  border: 1px solid #444;
+}
+
+.login-container input::placeholder {
+  color: green;
+}
+
+.login-container #submit-log {
+  background-color: #444;
+  color: white;
+}
+
+.login-container #submit-log:hover {
+  background-color: green;
+}
+
+.change .login-container {
+  background-color: white !important;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+.change .login-container h1, 
+.change .login-container p, 
+.change .login-container label,
+.change .login-container .if,
+.change .login-container .if small {
+  color: black !important;
+}
+
+.change .login-container input {
+  background-color: whitesmoke;
+  color: black;
+  border: none;
+}
+
+.change .login-container input::placeholder {
+  color: green;
+}
+
+.change .login-container #submit-log {
+  background-color: whitesmoke;
+  color: black;
+}
+
+.change .login-container #submit-log:hover {
+  background-color: green;
+  color: white;
+}
+.h1 {
+  text-align: center;
+  font-size: 120px;
+  color: green !important;
+  margin-bottom: 50px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  margin-bottom: 8px;
+  font-size: 25px;
+}
+input {
+  height: 40px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  padding: 15px 10px;
+  border: none;
+  color: black;
+  font-size: 15px;
+  background-color: whitesmoke;
+}
+input::placeholder {
+  color: green;
+}
+#submit-log {
+  background-color: whitesmoke;
+  padding: 10px;
+  border-radius: 50px;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  width: 70%;
+  text-align: center;
+  margin-top: 10px;
+}
+#submit-log:hover {
+  background-color: green;
+  transform: scale(1.05);
+}
+.if {
+  font-size: 20px;
+  color: dimgrey;
+}
+.link {
+  text-decoration: none;
+}
+span:hover {
+  color: green;
+}
+#message {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}

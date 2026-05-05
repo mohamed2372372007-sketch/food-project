@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Our Restaurant</title>
+    <link rel="stylesheet" href="for all.css">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+     <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=DM+Sans:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+   <header class="head" id="head">
+      <h1 class="name">world food</h1>
+      <h3 id="welcome" style="color: #d35400; margin-bottom: 10px;"></h3>
+         <ul class="link" id="link">
+        <li><a href="index.html">HOME </a></li>
+        <li><a href="login.html"> login</a></li>
+        <li><a href="register.html">register</a></li>
+        <li><a href="menu.html">menu</a></li>
+        <li><a href="compare.html">compare </a></li>
+        <li><a href="profile.html"> profile</a></li>
+        <li><a href="contact-us.html">contact us</a></li>
+        <li><a href="about-us.html">about Us</a></li>
+        <li><button id="buttom">change theme</button></li>
+      </ul>
+    </header>
+    <section class="aboutsection">
+  <div class="aboutcard">
+
+    <h1>Our Story Starts With Passion</h1>
+    <p class="intro">
+      At our restaurant, food is not just a meal; it's an experience crafted with love to suit your taste.
+    </p>
+
+    <img src="images/photo in about.jpg" alt="Restaurant">
+
+    <h2>The Secret Ingredient</h2>
+    <p>
+      Established in 2010, we started with a small kitchen and a big dream: to serve authentic flavors with a modern twist.
+      We hand-pick our ingredients daily from local farms to ensure every dish meets our high standards.
+    </p>
+
+    <a href="menu.html" class="btn">Explore Our Menu</a>
+    <div class="videoc">
+    <div class="videow">
+      <video id="myvideo" class="aboutvideo" playsinline>
+         <source src="videos/video/xPPLbEFbCAo.mp4" type="video/mp4">
+
+      </video>
+      <button id="playBtn" class="playbutton">start</button>
+    </div>
+    
+  </div>
+
+  </div>
+  <script>
+  const video = document.getElementById('myvideo');
+  const playBtn = document.getElementById('playBtn');
+
+  playBtn.addEventListener('click', function () {
+    if (video.paused) {
+      video.play();
+      playBtn.textContent = 'pause';
+    } else {
+      video.pause();
+      playBtn.textContent = 'start';
+    }
+  });
+</script>
+</section>
+    
+    
+     <script src="for all.js"></script>
+</body>
+</html>

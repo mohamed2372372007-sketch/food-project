@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link rel="stylesheet" href="for all.css" />
+    <link rel="stylesheet" href="register.css" />
+  </head>
+  <body id="c" class="change">
+    <header class="head" id="head">
+      <h1 class="name">web food</h1>
+      <ul class="link" id="link">
+        <li><a href="index.html">HOME </a></li>
+        <li><a href="login.html"> login</a></li>
+        <li><a href="register.html">register</a></li>
+        <li><a href="menu.html">menu</a></li>
+        <li><a href="compare.html">compare </a></li>
+        <li><a href="profile.html"> profile</a></li>
+        <li><a href="contact-us.html">contact us</a></li>
+        <li><a href="about-us.html">about Us</a></li>
+        <li><button id="buttom">change theme</button></li>
+      </ul>
+    </header>
+    <div class="register-container">
+      <h1 class="h2">Register</h1>
+      <p>If you didn't have an account please fill in these boxes</p>
+      <form>
+        <label for="username">Username</label>
+        <br />
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="Enter an username"
+          required
+        />
+        <br />
+        <label for="email">Email</label>
+        <br />
+        <input
+          type="email"
+          id="email-reg"
+          name="email"
+          placeholder="Enter an email"
+          required
+        />
+        <br />
+        <label for="password">Password</label>
+        <br />
+        <input
+          type="password"
+          id="password-reg"
+          name="password"
+          placeholder="Enter a complex password"
+          required
+        />
+        <br />
+        <label for="address">Address<small>(opptinal)</small></label>
+        <br />
+        <input
+          type="text"
+          id="address"
+          name="address"
+          placeholder="Enter your address if you need"
+        />
+        <br />
+        <button type="submit" id="submit-reg">Submit</button>
+      </form>
+    </div>
+    <script src="for all.js"></script>
+    <script src="register.js"></script>
+  </body>
+</html>

@@ -1,0 +1,55 @@
+
+div {
+   width: 90%;        
+  max-width: 1000px; 
+  margin: 40px auto;
+  background-color: var(--bottom-color);
+  padding: 25px;
+  border-radius: 15px;
+}
+
+
+img {
+  
+  margin: 15px 0;
+  
+  width: 500px;
+  height: 300px;
+  
+  
+}
+
+body{
+    background-image:url(images/black\ background.png);
+}
+
+h3 {
+  margin: 5px 0;
+  color: var(--all-color);
+
+}
+
+
+p {
+  color: #ccc;
+}
+
+
+a.but {
+  display: inline-block;
+  margin: 15px 0;
+  padding: 10px 20px;
+  background-color: #ff6b6b;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+a:hover {
+  background-color: #ff4c4c;
+}
+
+hr {
+  margin: 15px 0;
+  border: 1px solid #444;
+}
